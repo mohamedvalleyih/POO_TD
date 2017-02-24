@@ -17,4 +17,9 @@ class Dragon extends Monstre
         $this->vitesse = 5;
     }
 
+
+    public function showName()
+    {
+        echo $this->nom;
+    }
 }
