@@ -17,30 +17,30 @@
 
         <div class="col-md-4" id="character">
             <h2>Paladin</h2>
-            <img src="paladin.jpg" height="400px" width="300px">
-            <form action="#">
+            <center><img src="paladin.png" height="400px" width="300px">
+            <form action="game.php">
                 Nom de votre personnage: <br><input type="text" name="Nom" >
                 <input type="submit" value="commencer">
-            </form>
+            </form></center>
         </div>
 
         <div class="col-md-4" id="character">
-            <h2>Barbare</h2>
-            <img src="barbare.jpg" height="400px" width="300px">
-            <form action="#">
+            <center><h2>Barbare</h2>
+            <img src="barbare.png" height="400px" width="300px">
+            <form action="game.php">
                 Nom de votre personnage: <br><input type="text" name="Nom" >
                 <input type="submit" value="commencer">
-            </form>
+            </form></center>
         </div>
 
         <div class="col-md-4" id="character">
             <h2>Magicien</h2>
-            <img src="mage.jpg" height="400px" width="300px">
-            <form action="#">
+            <center><img src="mage.png" height="400px" width="300px">
+            <form action="game.php">
                 Nom de votre personnage: <br><input type="text" name="Nom" >
                 <input type="submit" value="commencer">
             </form>
-
+            </center>
         </div>
     </div>
     </div>

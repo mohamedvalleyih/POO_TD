@@ -4,29 +4,52 @@
 
 function Choix(){
 
-    $choix = "arrivée";
+    if (!empty($_POST['second'])) {
+        $choix = $_POST["second"];
+    }
+    elseif (!empty ($_POST["combat"])) {
+        $choix = "coffre" ;
+    }
+    elseif (!empty ($_POST["fuir"])) {
+        $choix = "fuir" ;
+    }
+
+    else {
+        $choix = "arrivée";
+    }
 
 
     switch ($choix){
         case "arrivée":
             echo "La salle est vide ! Prenez les ascaliers vers le prochain niveau";
             ?><br>
-            <form action="index.php" method="POST">
+            <form action="game.php" method="POST">
                 <input type="hidden" value="second" name="second">
-                <input type="submit" value="second">
+                <input type="submit" value="Avancer">
             </form>
             <?php
 
             break;
         case "second":
             echo "Un monstre vous attaque !";
-            ?><br><button class="button button5"><a href="Combat.php">Combattre</a></button><?php
-            ?><br><button class="button button5"><a href="Fuite.php">Fuir</a></button><?php
+            ?><form action="game.php" method="POST">
+            <input type="hidden" value="combat" name="combat">
+            <input type="submit" value="combat">
+        </form><?php
+            ?><form action="game.php" method="POST">
+            <input type="hidden" value="fuir" name="fuir">
+            <input type="submit" value="fuir">
+        </form><?php
             break;
-        case 2:
+        case "coffre":
             echo "Vous trouvez un coffre !";
-            ?><br><button class="button button5"><a href="">Ouvrir le coffre</a></button><?php
+            ?><br><button class="button button5"><a href="game_over.php">Ouvrir le coffre</a></button><?php
             break;
+        case "fuir":
+            echo "Vous vous etes enfuis, mais vous retournez a la premiére salle!";
+            ?><br><button class="button button5"><a href="game.php">ok</a></button><?php
+            break;
+        ;
     }
 }
 

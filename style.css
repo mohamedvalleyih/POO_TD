@@ -4,7 +4,7 @@ button a {
 }
 
 .index {
-    background: url("back.jpg") no-repeat center center fixed;
+    background: url("back.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -51,7 +51,7 @@ button a {
     right: 0;
 }
 .div {
-    margin-top: 30%;
+    margin-top: 35%;
 }
 .div a {
 
@@ -129,7 +129,7 @@ button a {
     right: 0;
 }
 .game {
-    margin-top: 35%;
+    margin-top: 39%;
 }
 
 .game a {
