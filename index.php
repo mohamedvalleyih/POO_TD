@@ -1,13 +1,21 @@
+
 <?php
 require_once ('Paladin.php');
 require_once ('Dragon.php');
 
-$hero = new Paladin("Matheiu");
+?>
 
-$hero-> showClasse();
+<!DOCTYPE html>
+<html>
+<head>
 
-echo "<br>";
-
-$m = new Dragon("Agrougrou");
-
-$m-> showType();
+    <title>Dungeon and gragon </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="index">
+<div class="div">
+<p> Aventurez-vous dans ce donjon et prouvez votre valeur entant que Héro !</p>
+<button class="button" type="button"><a href="selection.php"><span>Start</span></a></button>
+</div>
+</body>
+</html>

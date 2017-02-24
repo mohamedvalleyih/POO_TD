@@ -36,6 +36,7 @@ class Hero
     {
         $this->nom = $nom;
     }
+
     /**
      * @return mixed
      */

@@ -2,10 +2,6 @@
 require_once ('Paladin.php');
 require_once ('Magicien.php');
 require_once ('Barbare.php');
-
-
-
-
 class Niveau
 {
     private $salle;
@@ -13,8 +9,6 @@ class Niveau
     private $monstre;
     private $hero;
     private $portes;
-
-
     /**
      * @return mixed
      */
@@ -22,7 +16,6 @@ class Niveau
     {
         return $this->salle;
     }
-
     /**
      * @param mixed $salle
      */
@@ -30,7 +23,6 @@ class Niveau
     {
         $this->salle = $salle;
     }
-
     /**
      * @return mixed
      */
@@ -38,7 +30,6 @@ class Niveau
     {
         return $this->coffre;
     }
-
     /**
      * @param mixed $coffre
      */
@@ -46,7 +37,6 @@ class Niveau
     {
         $this->coffre = $coffre;
     }
-
     /**
      * @return mixed
      */
@@ -54,7 +44,6 @@ class Niveau
     {
         return $this->monstre;
     }
-
     /**
      * @param mixed $monstre
      */
@@ -62,7 +51,6 @@ class Niveau
     {
         $this->monstre = $monstre;
     }
-
     /**
      * @return mixed
      */
@@ -70,7 +58,6 @@ class Niveau
     {
         return $this->hero;
     }
-
     /**
      * @param mixed $hero
      */
@@ -78,7 +65,6 @@ class Niveau
     {
         $this->hero = $hero;
     }
-
     /**
      * @return mixed
      */
@@ -86,7 +72,6 @@ class Niveau
     {
         return $this->portes;
     }
-
     /**
      * @param mixed $portes
      */
@@ -94,13 +79,4 @@ class Niveau
     {
         $this->portes = $portes;
     }
-
-
-
-
-
-
-
-
-
 }

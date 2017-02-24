@@ -1,0 +1,135 @@
+.index {
+    background: url("back.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 42.5%;
+    margin-right: auto;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.div {
+    margin-top: 30%;
+}
+.div a {
+
+    text-decoration: none;
+    color: white;
+}
+.div p {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.selec{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+#character {
+    background: rgba(60, 60, 60, 0.7);
+    height: 600px;
+    margin-top: 5%;
+}
+
+#character h2 {
+    text-align: center;
+    color: floralwhite;
+}
+#character img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game_over{
+    background-image: url("game.jpg");
+    background-size: cover;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: black;
+    border: solid white;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 42.5%;
+    margin-right: auto;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.game {
+    margin-top: 35%;
+}
+
+.game a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
